@@ -73,9 +73,11 @@ function Header() {
             </div>
             <div className="header-info__content">
               <div className="header-info__line">
+                {/* //TODO: Change "a" to <Link> react-router componnent */}
                 <a className="header-info__link">(032) 662 58 47</a>
               </div>
               <div className="header-info__line">
+                {/* //TODO: Change "a" to <Link> react-router componnent */}
                 <a className="header-info__link">(050) 420 52 10</a>
               </div>
             </div>
