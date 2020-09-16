@@ -1,6 +1,6 @@
 import React from "react";
 import pizzaImg from "./pizza.jpg";
-import settingsImg from "./settings.svg";
+import cookingImg from "./chief.svg";
 
 // Styles
 import "./Card.sass";
@@ -24,7 +24,7 @@ function Card() {
         <div className="card__price">95 ₴</div>
         <div className="card__buttons">
           <button className="card__choice">
-            <img src={settingsImg} alt="" className="card__choice-img" />
+            <img src={cookingImg} alt="" className="card__choice-img" />
           </button>
           <button className="card__buy">В корзину</button>
         </div>

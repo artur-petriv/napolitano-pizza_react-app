@@ -6,7 +6,7 @@ import "./ContentHeader.sass";
 function ContentHeader({ title }) {
   return (
     <div className="content-header">
-      <h2 className="content-header__title">Піца</h2>
+      <h2 className="content-header__title">{title}</h2>
       <div className="content-header__hr"></div>
     </div>
   );

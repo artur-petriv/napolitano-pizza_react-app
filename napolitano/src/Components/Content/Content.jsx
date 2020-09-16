@@ -6,12 +6,16 @@ import Card from "./Card";
 import "../Main.sass";
 import "./Content.sass";
 
-function Content() {
+function Content({ type, title }) {
   return (
     <section className="content">
       <div className="container">
-        <ContentHeader />
+        <ContentHeader title={title} />
         <div className="content__list">
+          <Card />
+          <Card />
+          <Card />
+          <Card />
           <Card />
           <Card />
           <Card />

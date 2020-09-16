@@ -14,7 +14,8 @@ function App() {
       <Header />
       <Menu />
       <Banner />
-      <Content />
+      <Content type="pizza" title="Піца" />
+      <Content type="drink" title="Напої" />
     </div>
   );
 }
