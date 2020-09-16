@@ -40,11 +40,11 @@ function Header() {
             <div className="header-info__content">
               <div className="header-info__line">
                 Доставка по місту —{" "}
-                <span className="header-info__line_bolder">40 ₴</span>
+                <span className="header-info__line_bolder">50 ₴</span>
               </div>
               <div className="header-info__line">
                 За межі міста —{" "}
-                <span className="header-info__line_bolder">+10 ₴/км</span>
+                <span className="header-info__line_bolder">+14 ₴/км</span>
               </div>
             </div>
           </div>
@@ -57,12 +57,12 @@ function Header() {
             </div>
             <div className="header-info__content">
               <div className="header-info__line">
-                <span className="header-info__line_bolder">Пн-Пт:</span>{" "}
-                09:00—22:00
+                <span className="header-info__line_bolder">Пн-Пт:</span> 09:00 —
+                22:00
               </div>
               <div className="header-info__line">
-                <span className="header-info__line_bolder">Сб-Нд:</span>{" "}
-                10:00—23:00
+                <span className="header-info__line_bolder">Сб-Нд:</span> 10:00 —
+                23:00
               </div>
             </div>
           </div>
