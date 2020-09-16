@@ -1,10 +1,33 @@
 .header
+	position: relative
 	padding: 10px 0
-	&__left
+	&__container
 		display: flex
 		justify-content: space-between
+	&__left
+		display: flex
+		align-items: center
 	&__right
-
+		display: flex
+		align-items: center
+	&-tip
+		padding: 10px 15px
+		position: absolute
+		top: 0
+		left: 50%
+		background: linear-gradient(180deg, rgba(59, 186, 36, 1) 0%, #24ba36 100%)
+		box-shadow: 1px 2px 4px rgba(22, 23, 23, 0.2)
+		border-radius: 0px 0px 8px 8px;
+		font-size: 14px
+		color: #ffffff
+		display: flex
+		flex-direction: column
+		align-items: center
+		&__title
+			padding-bottom: 2px
+		&__text
+			font-weight: 600
+			
 
 .logo-wrap
 	display: flex
@@ -12,7 +35,6 @@
 		display: flex
 		align-items: center
 	&__svg
-	
 	&__content
 		padding-left: 10px
 		display: flex
@@ -31,3 +53,25 @@
 			color: #485687
 			font-weight: 700
 			text-decoration: underline
+
+
+.header-info
+	margin-left: 45px
+	padding: 10px 6px
+	display: flex
+	align-items: center
+	&__image
+		display: flex
+	&__svg
+		padding-right: 10px
+	&__content
+	&__line
+		padding-bottom: 2px
+		font-size: 14px
+		color: #404040
+		&:last-child
+			padding-bottom: 0
+		&_bolder
+			font-weight: 500
+	&__link
+		font-weight: 600
