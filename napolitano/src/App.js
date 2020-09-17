@@ -3,6 +3,7 @@ import Header from "./Components/Header/Header";
 import Menu from "./Components/Menu/Menu";
 import Banner from "./Components/Banner/Banner";
 import Content from "./Components/Content/Content";
+import PizzaForm from "./Components/PizzaForm/PizzaForm";
 import Footer from "./Components/Footer/Footer";
 
 // Styles
@@ -17,6 +18,7 @@ function App() {
       <Banner />
       <Content type="pizza" title="Піца" />
       <Content type="drink" title="Напої" />
+      <PizzaForm />
       <Footer />
     </div>
   );
