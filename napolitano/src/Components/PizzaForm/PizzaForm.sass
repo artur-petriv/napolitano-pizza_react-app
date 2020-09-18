@@ -1,0 +1,155 @@
+.popup
+	position: fixed
+	top: 0
+	left: 0
+	bottom: 0
+	right: 0
+	width: 100vw
+	height: 100vh
+	z-index: 101
+	color: #2c2c2c
+	&__wrapper
+		display: flex
+	&__main
+		padding: 30px
+		display: flex
+		background-color: #ffffff
+		border-radius: 20px 0 0 20px
+		border-right: 1px solid #eaefef
+	&__image
+	&__img
+		width: 100%
+		height: auto
+		display: block
+		object-fit: contain
+	&__header
+		padding-top: 15px
+		display: flex
+		align-items: center
+		justify-content: space-between
+		&-title
+			font-size: 22px
+			font-weight: 600
+		&-weight
+			font-size: 14px
+			color: #949494
+	&__sizes
+		padding-top: 20px
+	&__title
+		font-weight: 500
+		font-size: 14px
+		// text-transform: uppercase
+		color: #949494
+	&__options
+		margin-top: 10px
+		padding: 5px
+		display: flex
+		justify-content: space-between
+		border-radius: 30px
+		background-color: #f2f6f6
+		& > .active
+			background-color: #ffffff
+			box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.18)
+			color: #2C2C2C
+		& > .unavaliable
+			color: #c3c3c3
+	&__option
+		padding: 10px 20px
+		flex: 1
+		text-align: center
+		font-size: 13px
+		color: gray
+		cursor: pointer
+		border-radius: 45px
+		font-weight: 500
+		user-select: none
+		cursor: pointer
+	&__dough
+		padding-top: 15px
+	&__ingredients
+		margin-top: 25px
+	&__list
+		margin-top: 10px
+	&__line
+		padding: 10px 0
+		display: flex
+		justify-content: space-between
+		font-size: 15px
+		border-top: 1px solid #F5F5F5
+		color: #2C2C2C
+		line-height: 100%
+		&-name
+			font-weight: 500
+		&-price
+			font-weight: 400
+	&__sum
+		padding-top: 10px
+		display: flex
+		justify-content: space-between
+		align-items: flex-end
+		border-top: 1px solid #F5F5F5
+		line-height: 100%
+		&-name
+			font-size: 16px
+			font-weight: 500
+		&-price
+			font-weight: 600
+			font-size: 16px
+	&__button
+		margin-top: 20px
+	&__btn
+		padding: 14px
+		width: 100%
+		border: none
+		border-radius: 42px
+		text-align: center
+		background-color: #1dce2b
+		color: #fff
+		font-weight: 600
+		cursor: pointer
+
+	&__pick
+		padding: 30px
+		border-radius: 0 20px 20px 0
+		background-color: #F8F9F9
+		&-title
+			font-size: 16px
+			font-weight: 600
+			color: #6c6c6c
+		&-header
+			padding: 15px
+			display: flex
+			align-items: center
+			justify-content: space-between
+		&-name
+			font-size: 14px
+			font-weight: 600
+		&-arrow
+			cursor: pointer
+	&__container
+		margin-top: 20px
+		width: 290px
+		border: 1px solid #e6e6e6
+		border-radius: 5px
+		background-color: #ffffff
+		box-shadow: 0px 1px 2px #dcdcdc;
+	&__item
+		padding: 10px 15px
+		display: flex
+		justify-content: space-between
+		border-top: 1px solid #ececec
+		font-size: 15px
+		&:last-child
+			padding-bottom: 15px
+		&-name
+		&-price
+
+
+.overlay
+	background-color: rgba(#000,.5)
+	height: 100%
+	width: 100%
+	display: flex
+	align-items: center
+	justify-content: center
+	
