@@ -18,7 +18,7 @@ function App() {
       <Banner />
       <Content type="pizza" title="Піца" />
       <Content type="drink" title="Напої" />
-      <PizzaForm />
+      {/* <PizzaForm /> */}
       <Footer />
     </div>
   );
